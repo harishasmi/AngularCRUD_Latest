@@ -1,0 +1,32 @@
+﻿<h3>Add Player</h3>
+{{message}}
+
+
+<form name="AddPlayerForm" ng-submit="AddPlayer()">
+    <table>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" ng-model="player.Name" /></td>
+        </tr>
+        <tr>
+            <td>Club</td>
+            <td><input type="text" ng-model="player.Club" /></td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td><input type="text" ng-model="player.Country" /></td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td><input type="text" ng-model="player.Age" /></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Submit" />
+            </td>
+        </tr>
+
+        
+    </table>
+
+</form>
